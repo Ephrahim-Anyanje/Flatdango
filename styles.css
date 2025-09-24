@@ -39,7 +39,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background 0.3s;
 }
 
 .film.item:hover {
@@ -54,7 +53,6 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
-  transition: background 0.3s;
 }
 
 .film.item button:hover {
@@ -105,7 +103,6 @@ button#buy-ticket {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 button#buy-ticket:hover {

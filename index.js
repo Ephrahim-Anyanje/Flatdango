@@ -8,9 +8,10 @@ const buyButton = document.getElementById("buy-ticket");
 
 let currentFilm = null;
 
-fetch("http://localhost:3000/films")
+fetch("http://localhost:4000/films")
   .then((res) => res.json())
   .then((films) => {
+    console.log("Fetched films:", films); //
     films.forEach(renderFilmItem);
     showFilmDetails(films[0]); // show first movie
   });
